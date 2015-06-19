@@ -1,0 +1,123 @@
+//COMIENZO PROYECTO TENS
+html,
+body{
+	width: 100%;
+	//height: 100%;
+}
+//fonts
+@mixin font-family-Hammersmith{
+	font-family: 'Hammersmith One', sans-serif;
+}
+@mixin font-family-Playfair{
+	font-family: 'Playfair Display', serif;
+}
+
+h1, h2{
+	@include font-family-Playfair;
+}
+ul{
+	@include font-family-Hammersmith;
+}
+
+//NAV
+.navbar{
+
+	background-color: transparent;
+	border-bottom: transparent;
+	position:fixed;
+	width:100%;
+	z-index:10;
+	.navbar-header{
+		.logo-img{
+			img{
+				height: 100%;
+			}
+		}
+	}
+	.collapse{
+		.nav-center{
+			margin-left: 21.7%;
+			li{
+				a{
+					color: black;
+				}
+			}
+		}
+		
+	}
+	&.scroll {
+		background-color:white;
+		width:100%;
+		z-index: 10;
+	}
+
+}
+			
+.dato{
+	.lente-1{
+		//margin-left: 40px;
+		.content-product{
+		  	margin: 100px 0px 20px 90px;
+			h1{
+				color:black;
+				font-size: 40px;
+				font-weight:bold;
+				//line-height: 0.5;
+				margin-bottom: 0px;
+				margin-top: 0px;
+			}
+		}
+		.glass-1{
+			margin-top: 20px;
+			width: 50%;
+			img{
+				width: 100%;
+			}
+		}
+		.content-boton{
+			h2{
+				color: black;
+  				font-size: 22px;
+  				font-weight: bold;
+			}
+			p{
+			  	color: #9f9f9f;
+				font-size: 10px;
+				font-weight: bold;
+				letter-spacing: 2px;
+			}
+			.boton{
+  				background-color: #bd9655;
+				border: transparent;
+  				color: white;
+  				margin-top: 30px;
+  				padding: 21px 45px;
+  				&:hover{
+					background-color:#d2aa60;
+					transition: 300ms;
+  				}
+			}
+		}
+			
+	}
+	.portada-1{
+		background-image: url(../img/img-1.jpg);
+		background-size: cover;
+	  	height: 605px;
+	  	.content-img{
+	  			text-align: center;
+	  			position: relative;
+	  			top: 85%;
+	  			left:66%;
+	  			width: 32%;
+	  		p{
+	  			color: white;
+				font-size: 12px;
+				font-weight: bold;
+				letter-spacing: 2px;
+	  		}
+	  		img{
+	  		}
+	  	}
+	}
+}
