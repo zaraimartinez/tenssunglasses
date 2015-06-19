@@ -5641,7 +5641,7 @@ ul {
   .navbar .navbar-header .logo-img img {
     height: 100%; }
   .navbar .collapse .nav-center {
-    margin-left: 21.7%; }
+    margin-left: 23%; }
     .navbar .collapse .nav-center li a {
       color: black; }
   .navbar.scroll {
@@ -5649,51 +5649,114 @@ ul {
     width: 100%;
     z-index: 10; }
 
-.dato .lente-1 .content-product {
-  margin: 100px 0px 20px 90px; }
-  .dato .lente-1 .content-product h1 {
+.dato {
+  min-height: 588px; }
+  .dato .container-content {
+    margin: 0px;
+    width: 100%; }
+    .dato .container-content .lente-1 {
+      height: 588px; }
+      .dato .container-content .lente-1 .content-product {
+        margin: 100px 0px 20px 90px; }
+        .dato .container-content .lente-1 .content-product h1 {
+          color: black;
+          font-size: 40px;
+          font-weight: bold;
+          margin-bottom: 0px;
+          margin-top: 0px; }
+      .dato .container-content .lente-1 .glass-1 {
+        margin-top: 20px;
+        width: 50%; }
+        .dato .container-content .lente-1 .glass-1 img {
+          width: 100%; }
+      .dato .container-content .lente-1 .content-boton h2 {
+        color: black;
+        font-size: 22px;
+        font-weight: bold; }
+      .dato .container-content .lente-1 .content-boton p {
+        color: #9f9f9f;
+        font-size: 10px;
+        font-weight: bold;
+        letter-spacing: 2px; }
+      .dato .container-content .lente-1 .content-boton .boton {
+        background-color: #bd9655;
+        border: transparent;
+        color: white;
+        margin-top: 30px;
+        padding: 21px 45px; }
+        .dato .container-content .lente-1 .content-boton .boton:hover {
+          background-color: #d2aa60;
+          transition: 300ms; }
+    .dato .container-content .img-lente1 {
+      padding: 0px; }
+      .dato .container-content .img-lente1 .portada-1 {
+        height: 588px; }
+        .dato .container-content .img-lente1 .portada-1 .img-glass1 {
+          background-image: url(../img/glass-1.jpg);
+          background-size: cover;
+          position: relative; }
+        .dato .container-content .img-lente1 .portada-1 .content-img {
+          text-align: center;
+          position: absolute;
+          top: 85%;
+          left: 66%;
+          width: 32%; }
+          .dato .container-content .img-lente1 .portada-1 .content-img p {
+            color: white;
+            font-size: 12px;
+            font-weight: bold;
+            letter-spacing: 2px; }
+
+.content-product {
+  float: left;
+  margin-top: 11.5%;
+  padding-left: 6.5%;
+  width: 50%; }
+  .content-product h1 {
     color: black;
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 0px;
     margin-top: 0px; }
-.dato .lente-1 .glass-1 {
+
+.glass-1 {
   margin-top: 20px;
   width: 50%; }
-  .dato .lente-1 .glass-1 img {
+  .glass-1 img {
     width: 100%; }
-.dato .lente-1 .content-boton h2 {
+
+.content-boton h2 {
   color: black;
   font-size: 22px;
   font-weight: bold; }
-.dato .lente-1 .content-boton p {
+.content-boton p {
   color: #9f9f9f;
   font-size: 10px;
   font-weight: bold;
   letter-spacing: 2px; }
-.dato .lente-1 .content-boton .boton {
+.content-boton .boton {
   background-color: #bd9655;
   border: transparent;
   color: white;
   margin-top: 30px;
   padding: 21px 45px; }
-  .dato .lente-1 .content-boton .boton:hover {
+  .content-boton .boton:hover {
     background-color: #d2aa60;
     transition: 300ms; }
-.dato .portada-1 {
+
+.img-contenido {
   background-image: url(../img/img-1.jpg);
   background-size: cover;
-  height: 605px; }
-  .dato .portada-1 .content-img {
-    text-align: center;
-    position: relative;
-    top: 85%;
-    left: 66%;
-    width: 32%; }
-    .dato .portada-1 .content-img p {
-      color: white;
-      font-size: 12px;
-      font-weight: bold;
-      letter-spacing: 2px; }
+  display: block;
+  float: left;
+  height: 596px;
+  width: 50%; }
+
+.slide-glass1 {
+  margin: 0 auto;
+  padding-top: 22px;
+  width: 55%; }
+  .slide-glass1 img {
+    width: 100%; }
 
 /*# sourceMappingURL=main.css.map */
